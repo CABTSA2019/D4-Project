@@ -19,9 +19,9 @@
 
         function makepic() {
         var img = document.createElement("img");
-        var iwid = (200 + Math.random()*800);
-        var ihigh = (200 + Math.random()*800);
-        var pic = 1*(Math.random()*1000);
+        var iwid = parseInt((200 + Math.random()*800), 10);
+        var ihigh = parseInt((200 + Math.random()*800), 10);
+        var pic = parseInt(1*(Math.random()*1000), 10);
         var att = document.createAttribute("src");
         var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
         att.value = picval;
