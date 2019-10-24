@@ -7,6 +7,26 @@ function makedoc() {
             keepTitle = false;
         }
 
+        var navcont = document.createElement("div");
+            navcont.style.height = "90px";
+            navcont.style.width = "100vw";
+            navcont.style.backgroundColor = "darkseagreen";
+            navcont.style.display = "flex";
+            navcont.style.justifyContent = "space-around";
+            navcont.style.alignItems = "center";
+            navcont.setAttribute("id", "navdiv");
+
+            document.body.appendChild(navcont);
+
+            var i;
+            for (i = 0; i < 4; i++) {
+                var link = document.createElement("a");
+                link.innerHTML = "link";
+                link.setAttribute("id", "topage" + i);
+                link.setAttribute("href", "testpage1.html");
+                document.getElementById("navdiv").appendChild(link);
+            }
+
         var snum = document.createElement("p");
         snum.innerHTML = seed;
         document.body.appendChild(snum);
