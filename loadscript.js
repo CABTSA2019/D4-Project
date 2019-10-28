@@ -1,22 +1,25 @@
 function makedoc() {
         var seed = Math.random()*900000000 + 100000000;
-        var keepTitle = true;
-        var first = seed%10 - seed %1;
+        seed = seed - seed%1;
+        var first = seed%10;
+        var second = (seed %100 - seed%10)/10;
 
-        if (seed > 750000000) {
-            keepTitle = false;
-        }
-
+        if (first > 0) { //Nav Tree
         var navcont = document.createElement("div");
             navcont.style.height = "90px";
             navcont.style.width = "100vw";
-            navcont.style.backgroundColor = "darkseagreen";
             navcont.style.display = "flex";
             navcont.style.justifyContent = "space-around";
             navcont.style.alignItems = "center";
             navcont.setAttribute("id", "navdiv");
 
             document.body.appendChild(navcont);
+
+            var logo = document.createElement("img");
+            var logatt = document.createAttribute("src");
+            logatt.value = "Assets/log.png";
+            logo.setAttributeNode(logatt);
+            document.getElementById("navdiv").appendChild(logo);
 
             var i;
             for (i = 0; i < 4; i++) {
@@ -26,6 +29,7 @@ function makedoc() {
                 link.setAttribute("href", "testpage1.html");
                 document.getElementById("navdiv").appendChild(link);
             }
+        }
 
         var snum = document.createElement("p");
         snum.innerHTML = seed;
@@ -43,7 +47,7 @@ function makedoc() {
             }
         } else {
             if (first <= 1) { //image takes up whole page
-                if (first == 1){
+                if (first == 0){
                     var iwid = parseInt((200 + Math.random()*800), 10);
                     var ihigh = parseInt((200 + Math.random()*800), 10);
                     var pic = parseInt(1*(Math.random()*1000), 10);

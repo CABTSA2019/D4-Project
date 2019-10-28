@@ -10,13 +10,18 @@
             var navcont = document.createElement("div");
             navcont.style.height = "90px";
             navcont.style.width = "100vw";
-            navcont.style.backgroundColor = "darkseagreen";
             navcont.style.display = "flex";
             navcont.style.justifyContent = "space-around";
             navcont.style.alignItems = "center";
             navcont.setAttribute("id", "navdiv");
 
             document.body.appendChild(navcont);
+
+            var logo = document.createElement("img");
+            var logatt = document.createAttribute("src");
+            logatt.value = "Assets/log.png";
+            logo.setAttributeNode(logatt);
+            document.getElementById("navdiv").appendChild(logo);
 
             var i;
             for (i = 0; i < 4; i++) {
