@@ -3,6 +3,9 @@ function makedoc() {
         seed = seed - seed%1;
         var first = seed%10;
         var second = (seed %100 - seed%10)/10;
+        var third = (seed %1000 - seed%100)/100;
+
+        var fillertext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Facilisi nullam vehicula ipsum a arcu cursus. In mollis nunc sed id semper risus in. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Vel risus commodo viverra maecenas accumsan lacus. Ac felis donec et odio pellentesque diam volutpat commodo sed. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Tellus at urna condimentum mattis pellentesque id. Enim neque volutpat ac tincidunt vitae semper quis. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Tristique nulla aliquet enim tortor at auctor urna nunc id. Sit amet nisl purus in mollis nunc. Consequat semper viverra nam libero. Pretium viverra suspendisse potenti nullam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Ac turpis egestas integer eget aliquet. Pretium vulputate sapien nec sagittis aliquam. Eros donec ac odio tempor orci dapibus. Dui nunc mattis enim ut tellus. Quam vulputate dignissim suspendisse in est ante in. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eu augue ut lectus arcu. Orci eu lobortis elementum nibh tellus molestie nunc non. Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Egestas dui id ornare arcu odio ut sem nulla pharetra. Mauris a diam maecenas sed enim ut sem viverra aliquet. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Tortor id aliquet lectus proin nibh nisl condimentum id. Vel pretium lectus quam id. Nisi vitae suscipit tellus mauris a diam maecenas sed. Volutpat blandit aliquam etiam erat velit scelerisque in. A diam maecenas sed enim ut sem viverra aliquet. Non tellus orci ac auctor augue mauris augue neque. Ullamcorper sit amet risus nullam eget felis. Ornare aenean euismod elementum nisi quis. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Ornare quam viverra orci sagittis eu. Eget sit amet tellus cras adipiscing enim. Etiam sit amet nisl purus in mollis nunc sed. Elementum pulvinar etiam non quam lacus suspendisse. Etiam erat velit scelerisque in dictum non consectetur a. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultricies mi eget mauris pharetra et. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Sagittis vitae et leo duis ut diam. Pellentesque pulvinar pellentesque habitant morbi. Euismod elementum nisi quis eleifend quam adipiscing. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Aenean sed adipiscing diam donec adipiscing tristique risus. Eget aliquet nibh praesent tristique magna. Elementum tempus egestas sed sed risus pretium quam vulputate. Nunc sed augue lacus viverra vitae congue. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Aliquam ultrices sagittis orci a. Blandit libero volutpat sed cras ornare. Neque viverra justo nec ultrices dui sapien eget mi proin. Quam elementum pulvinar etiam non. Sagittis nisl rhoncus mattis rhoncus. Leo urna molestie at elementum eu facilisis. Lorem sed risus ultricies tristique nulla. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Sodales ut etiam sit amet nisl purus in mollis. Laoreet sit amet cursus sit amet dictum sit amet justo. Malesuada proin libero nunc consequat interdum. Est lorem ipsum dolor sit. Iaculis nunc sed augue lacus viverra vitae. Blandit libero volutpat sed cras ornare. Lacus sed viverra tellus in hac habitasse platea. At in tellus integer feugiat scelerisque. Pulvinar mattis nunc sed blandit libero volutpat sed.";
 
         if (first > 0) { //Nav Tree
         var navcont = document.createElement("div");
@@ -36,7 +39,6 @@ function makedoc() {
         document.body.appendChild(snum);
 
         if (first >= 8) { //Header Tree
-            if (keepTitle) {
             var title = document.createElement("h1");
             var tag = document.createElement("p");
             title.innerHTML = "First option";
@@ -44,7 +46,6 @@ function makedoc() {
 
             document.body.appendChild(title);
             document.body.appendChild(tag); //No img above fold keep title
-            }
         } else {
             if (first <= 1) { //image takes up whole page
                 if (first == 0){
@@ -158,4 +159,44 @@ function makedoc() {
                 document.body.appendChild(img); //Half image half title
             }
         }
+
+        if (first != 0) { //content tree
+            var contentcont = document.createElement("div");
+            contentcont.style.width = "100%";
+            contentcont.style.display = "flex";
+            contentcont.style.flexdirection = "row";
+            contentcont.style.justifyContent = "space-around";
+            contentcont.setAttribute("id", "contentcont");
+
+            document.body.appendChild(contentcont);
+
+            if (third >= 8) {
+                var g;
+                for (g = 0; g < 3; g++) {
+                    var coldiv = document.createElement("div");
+                    coldiv.style.width = "30vw";
+                    coldiv.style.height = "100px";
+                    coldiv.style.backgroundColor = "blue";
+                    coldiv.style.display = "flex";
+                    coldiv.style.flexdirection = "column";
+                    coldiv.setAttribute("id", "coldiv" + g);
+
+                    document.getElementById("contentcont").appendChild(coldiv);
+                }
+            } else if (5 <= third && third <= 7){
+                var g;
+                for (g = 0; g < 2; g++) {
+                    var coldiv = document.createElement("div");
+                    coldiv.style.width = "45vw";
+                    coldiv.style.height = "100px";
+                    coldiv.style.backgroundColor = "blue";
+                    coldiv.style.display = "flex";
+                    coldiv.style.flexdirection = "column";
+                    coldiv.setAttribute("id", "coldiv" + g);
+
+                    document.getElementById("contentcont").appendChild(coldiv);
+                }
+            }
+        }
+
         }
