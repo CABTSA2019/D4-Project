@@ -1,7 +1,7 @@
 function makedoc() {
         var fromhtml = document.getElementById("seedInput").value;
-        if (fromhtml == 100000000) {
-        var seed = Math.random()*900000000 + 100000000;
+        if (fromhtml == 10000000000000) {
+        var seed = Math.random()*90000000000000 + 10000000000000;
         } else {
             seed = fromhtml;
         }
@@ -15,27 +15,53 @@ function makedoc() {
         var seventh = (seed %10000000 - seed%1000000)/1000000;
         var eighth = (seed %100000000 - seed%10000000)/10000000;
         var ninth = (seed %1000000000 - seed%100000000)/100000000;
+        var tenth = (seed %10000000000 - seed%1000000000)/1000000000;
+        var eleventh = (seed %100000000000 - seed%10000000000)/10000000000;
+        var twelfth = (seed %1000000000000 - seed%100000000000)/100000000000;
 
         var fillertext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Facilisi nullam vehicula ipsum a arcu cursus. In mollis nunc sed id semper risus in. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Vel risus commodo viverra maecenas accumsan lacus. Ac felis donec et odio pellentesque diam volutpat commodo sed. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Tellus at urna condimentum mattis pellentesque id. Enim neque volutpat ac tincidunt vitae semper quis. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Tristique nulla aliquet enim tortor at auctor urna nunc id. Sit amet nisl purus in mollis nunc. Consequat semper viverra nam libero. Pretium viverra suspendisse potenti nullam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Ac turpis egestas integer eget aliquet. Pretium vulputate sapien nec sagittis aliquam. Eros donec ac odio tempor orci dapibus. Dui nunc mattis enim ut tellus. Quam vulputate dignissim suspendisse in est ante in. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eu augue ut lectus arcu. Orci eu lobortis elementum nibh tellus molestie nunc non. Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Egestas dui id ornare arcu odio ut sem nulla pharetra. Mauris a diam maecenas sed enim ut sem viverra aliquet. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Tortor id aliquet lectus proin nibh nisl condimentum id. Vel pretium lectus quam id. Nisi vitae suscipit tellus mauris a diam maecenas sed. Volutpat blandit aliquam etiam erat velit scelerisque in. A diam maecenas sed enim ut sem viverra aliquet. Non tellus orci ac auctor augue mauris augue neque. Ullamcorper sit amet risus nullam eget felis. Ornare aenean euismod elementum nisi quis. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Ornare quam viverra orci sagittis eu. Eget sit amet tellus cras adipiscing enim. Etiam sit amet nisl purus in mollis nunc sed. Elementum pulvinar etiam non quam lacus suspendisse. Etiam erat velit scelerisque in dictum non consectetur a. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultricies mi eget mauris pharetra et. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Sagittis vitae et leo duis ut diam. Pellentesque pulvinar pellentesque habitant morbi. Euismod elementum nisi quis eleifend quam adipiscing. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Aenean sed adipiscing diam donec adipiscing tristique risus. Eget aliquet nibh praesent tristique magna. Elementum tempus egestas sed sed risus pretium quam vulputate. Nunc sed augue lacus viverra vitae congue. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Aliquam ultrices sagittis orci a. Blandit libero volutpat sed cras ornare. Neque viverra justo nec ultrices dui sapien eget mi proin. Quam elementum pulvinar etiam non. Sagittis nisl rhoncus mattis rhoncus. Leo urna molestie at elementum eu facilisis. Lorem sed risus ultricies tristique nulla. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Sodales ut etiam sit amet nisl purus in mollis. Laoreet sit amet cursus sit amet dictum sit amet justo. Malesuada proin libero nunc consequat interdum. Est lorem ipsum dolor sit. Iaculis nunc sed augue lacus viverra vitae. Blandit libero volutpat sed cras ornare. Lacus sed viverra tellus in hac habitasse platea. At in tellus integer feugiat scelerisque. Pulvinar mattis nunc sed blandit libero volutpat sed.";
 
+        function loadUnits(p) {
+            var loremcounter = 300*p;
+            var paragraph = document.createElement("p");
+            paragraph.style.width = "23vw";
+            paragraph.style.margin = "0px";
+            paragraph.style.padding = "10px";
+            paragraph.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
+            document.getElementById("coldiv" + p%3).appendChild(paragraph);
+
+            var contpic = document.createElement("img");
+            var iwid = parseInt((200 + Math.random()*800), 10);
+            var ihigh = parseInt((200 + Math.random()*800), 10);
+            var pic = Math.random()*300;
+            pic = (pic - pic%1);
+            var att = document.createAttribute("src");
+            var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
+            att.value = picval;
+            contpic.setAttributeNode(att);
+            contpic.style.width = "23vw";
+            document.getElementById("coldiv" + p%3).appendChild(contpic);
+        }
 
         var margin;
+        if (first > 1){
         if (ninth <= 1) {
-            document.body.style.paddingLeft = "10%";
-            document.body.style.paddingRight = "10%";
+            document.body.style.paddingLeft = "10vw";
+            document.body.style.paddingRight = "10vw";
             margin = 20;
         } else if (2 <= ninth && ninth <= 3) {
-            document.body.style.paddingLeft = "7.5%";
-            document.body.style.paddingRight = "7.5%";
+            document.body.style.paddingLeft = "7.5vw";
+            document.body.style.paddingRight = "7.5vw";
             margin = 15;
         } else if (4 <= ninth && ninth <= 5) {
-            document.body.style.paddingLeft = "5%";
-            document.body.style.paddingRight = "5%";
+            document.body.style.paddingLeft = "5vw";
+            document.body.style.paddingRight = "5vw";
             margin = 10;
         } else if (6 <= ninth && ninth <= 7) {
-            document.body.style.paddingLeft = "2.5%";
-            document.body.style.paddingRight = "2.5%";
+            document.body.style.paddingLeft = "2.5vw";
+            document.body.style.paddingRight = "2.5vw";
             margin = 5;
+        }
         }
 
         if (first > 0) { //Nav Tree
@@ -210,29 +236,16 @@ function makedoc() {
                     coldiv.style.backgroundColor = "blue";
                     coldiv.style.display = "flex";
                     coldiv.style.flexDirection = "column";
+                    coldiv.style.alignItems = "center";
                     coldiv.setAttribute("id", "coldiv" + g);
 
                     document.getElementById("contentcont").appendChild(coldiv);
                 } //three columns
 
-                if (fourth >= 5) {
                     var p;
                     for (p = 0; p < 3*4; p++) {
-                        if (fifth >= 5){
-                            var loremcounter = 300*p;
-                            var paragraph = document.createElement("p");
-                            paragraph.style.width = "23vw";
-                            paragraph.style.margin = "0px";
-                            paragraph.style.padding = "10px";
-                            paragraph.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
-                            document.getElementById("coldiv" + p%3).appendChild(paragraph);
-                        } else {
-
-                        }
+                        loadUnits(p)
                     }
-                } else {
-
-                }
 
             } else if (5 <= third && third <= 7){
                 var g;
@@ -250,4 +263,4 @@ function makedoc() {
             } //two columns
         }
 
-        }
+}
