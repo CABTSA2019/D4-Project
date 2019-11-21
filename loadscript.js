@@ -6,20 +6,20 @@ function makedoc() {
             seed = fromhtml;
         }
         seed = seed - seed%1;
-        var first = seed%10;
-        var second = (seed %100 - seed%10)/10;
-        var third = (seed %1000 - seed%100)/100;
-        var fourth = (seed %10000 - seed%1000)/1000;
-        var fifth = (seed %100000 - seed%10000)/10000;
-        var sixth = (seed %1000000 - seed%100000)/100000;
-        var seventh = (seed %10000000 - seed%1000000)/1000000;
-        var eighth = (seed %100000000 - seed%10000000)/10000000;
-        var ninth = (seed %1000000000 - seed%100000000)/100000000;
-        var tenth = (seed %10000000000 - seed%1000000000)/1000000000;
-        var eleventh = (seed %100000000000 - seed%10000000000)/10000000000;
-        var twelfth = (seed %1000000000000 - seed%100000000000)/100000000000;
+        var first = seed%10; //page type
+        var second = (seed %100 - seed%10)/10; //nothing I guess
+        var third = (seed %1000 - seed%100)/100; //number of columns
+        var fourth = (seed %10000 - seed%1000)/1000; //lmao
+        var fifth = (seed %100000 - seed%10000)/10000; //
+        var sixth = (seed %1000000 - seed%100000)/100000; //
+        var seventh = (seed %10000000 - seed%1000000)/1000000; //
+        var eighth = (seed %100000000 - seed%10000000)/10000000; //
+        var ninth = (seed %1000000000 - seed%100000000)/100000000; // margin %
+        var tenth = (seed %10000000000 - seed%1000000000)/1000000000; //
+        var eleventh = (seed %100000000000 - seed%10000000000)/10000000000; //   |content dice
+        var twelfth = (seed %1000000000000 - seed%100000000000)/100000000000; // v
 
-        var fillertext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Facilisi nullam vehicula ipsum a arcu cursus. In mollis nunc sed id semper risus in. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Vel risus commodo viverra maecenas accumsan lacus. Ac felis donec et odio pellentesque diam volutpat commodo sed. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Tellus at urna condimentum mattis pellentesque id. Enim neque volutpat ac tincidunt vitae semper quis. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Tristique nulla aliquet enim tortor at auctor urna nunc id. Sit amet nisl purus in mollis nunc. Consequat semper viverra nam libero. Pretium viverra suspendisse potenti nullam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Ac turpis egestas integer eget aliquet. Pretium vulputate sapien nec sagittis aliquam. Eros donec ac odio tempor orci dapibus. Dui nunc mattis enim ut tellus. Quam vulputate dignissim suspendisse in est ante in. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eu augue ut lectus arcu. Orci eu lobortis elementum nibh tellus molestie nunc non. Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Egestas dui id ornare arcu odio ut sem nulla pharetra. Mauris a diam maecenas sed enim ut sem viverra aliquet. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Tortor id aliquet lectus proin nibh nisl condimentum id. Vel pretium lectus quam id. Nisi vitae suscipit tellus mauris a diam maecenas sed. Volutpat blandit aliquam etiam erat velit scelerisque in. A diam maecenas sed enim ut sem viverra aliquet. Non tellus orci ac auctor augue mauris augue neque. Ullamcorper sit amet risus nullam eget felis. Ornare aenean euismod elementum nisi quis. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Ornare quam viverra orci sagittis eu. Eget sit amet tellus cras adipiscing enim. Etiam sit amet nisl purus in mollis nunc sed. Elementum pulvinar etiam non quam lacus suspendisse. Etiam erat velit scelerisque in dictum non consectetur a. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultricies mi eget mauris pharetra et. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Sagittis vitae et leo duis ut diam. Pellentesque pulvinar pellentesque habitant morbi. Euismod elementum nisi quis eleifend quam adipiscing. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Aenean sed adipiscing diam donec adipiscing tristique risus. Eget aliquet nibh praesent tristique magna. Elementum tempus egestas sed sed risus pretium quam vulputate. Nunc sed augue lacus viverra vitae congue. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Aliquam ultrices sagittis orci a. Blandit libero volutpat sed cras ornare. Neque viverra justo nec ultrices dui sapien eget mi proin. Quam elementum pulvinar etiam non. Sagittis nisl rhoncus mattis rhoncus. Leo urna molestie at elementum eu facilisis. Lorem sed risus ultricies tristique nulla. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Sodales ut etiam sit amet nisl purus in mollis. Laoreet sit amet cursus sit amet dictum sit amet justo. Malesuada proin libero nunc consequat interdum. Est lorem ipsum dolor sit. Iaculis nunc sed augue lacus viverra vitae. Blandit libero volutpat sed cras ornare. Lacus sed viverra tellus in hac habitasse platea. At in tellus integer feugiat scelerisque. Pulvinar mattis nunc sed blandit libero volutpat sed.";
+        var fillertext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Facilisi nullam vehicula ipsum a arcu cursus. In mollis nunc sed id semper risus in. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Vel risus commodo viverra maecenas accumsan lacus. Ac felis donec et odio pellentesque diam volutpat commodo sed. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Tellus at urna condimentum mattis pellentesque id. Enim neque volutpat ac tincidunt vitae semper quis. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Tristique nulla aliquet enim tortor at auctor urna nunc id. Sit amet nisl purus in mollis nunc. Consequat semper viverra nam libero. Pretium viverra suspendisse potenti nullam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Ac turpis egestas integer eget aliquet. Pretium vulputate sapien nec sagittis aliquam. Eros donec ac odio tempor orci dapibus. Dui nunc mattis enim ut tellus. Quam vulputate dignissim suspendisse in est ante in. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eu augue ut lectus arcu. Orci eu lobortis elementum nibh tellus molestie nunc non. Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Egestas dui id ornare arcu odio ut sem nulla pharetra. Mauris a diam maecenas sed enim ut sem viverra aliquet. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Tortor id aliquet lectus proin nibh nisl condimentum id. Vel pretium lectus quam id. Nisi vitae suscipit tellus mauris a diam maecenas sed. Volutpat blandit aliquam etiam erat velit scelerisque in. A diam maecenas sed enim ut sem viverra aliquet. Non tellus orci ac auctor augue mauris augue neque. Ullamcorper sit amet risus nullam eget felis. Ornare aenean euismod elementum nisi quis. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Ornare quam viverra orci sagittis eu. Eget sit amet tellus cras adipiscing enim. Etiam sit amet nisl purus in mollis nunc sed. Elementum pulvinar etiam non quam lacus suspendisse. Etiam erat velit scelerisque in dictum non consectetur a. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultricies mi eget mauris pharetra et. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Sagittis vitae et leo duis ut diam. Pellentesque pulvinar pellentesque habitant morbi. Euismod elementum nisi quis eleifend quam adipiscing. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Aenean sed adipiscing diam donec adipiscing tristique risus. Eget aliquet nibh praesent tristique magna. Elementum tempus egestas sed sed risus pretium quam vulputate. Nunc sed augue lacus viverra vitae congue. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Aliquam ultrices sagittis orci a. Blandit libero volutpat sed cras ornare. Neque viverra justo nec ultrices dui sapien eget mi proin. Quam elementum pulvinar etiam non. Sagittis nisl rhoncus mattis rhoncus. Leo urna molestie at elementum eu facilisis. Lorem sed risus ultricies tristique nulla. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Sodales ut etiam sit amet nisl purus in mollis. Laoreet sit amet cursus sit amet dictum sit amet justo. Malesuada proin libero nunc consequat interdum. Est lorem ipsum dolor sit. Iaculis nunc sed augue lacus viverra vitae. Blandit libero volutpat sed cras ornare. Lacus sed viverra tellus in hac habitasse platea. At in tellus integer feugiat scelerisque. Pulvinar mattis nunc sed blandit libero volutpat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Facilisi nullam vehicula ipsum a arcu cursus. In mollis nunc sed id semper risus in. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Vel risus commodo viverra maecenas accumsan lacus. Ac felis donec et odio pellentesque diam volutpat commodo sed. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Tellus at urna condimentum mattis pellentesque id. Enim neque volutpat ac tincidunt vitae semper quis. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Tristique nulla aliquet enim tortor at auctor urna nunc id. Sit amet nisl purus in mollis nunc. Consequat semper viverra nam libero. Pretium viverra suspendisse potenti nullam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Ac turpis egestas integer eget aliquet. Pretium vulputate sapien nec sagittis aliquam. Eros donec ac odio tempor orci dapibus. Dui nunc mattis enim ut tellus. Quam vulputate dignissim suspendisse in est ante in. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eu augue ut lectus arcu. Orci eu lobortis elementum nibh tellus molestie nunc non. Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Egestas dui id ornare arcu odio ut sem nulla pharetra. Mauris a diam maecenas sed enim ut sem viverra aliquet. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Tortor id aliquet lectus proin nibh nisl condimentum id. Vel pretium lectus quam id. Nisi vitae suscipit tellus mauris a diam maecenas sed. Volutpat blandit aliquam etiam erat velit scelerisque in. A diam maecenas sed enim ut sem viverra aliquet. Non tellus orci ac auctor augue mauris augue neque. Ullamcorper sit amet risus nullam eget felis. Ornare aenean euismod elementum nisi quis. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Ornare quam viverra orci sagittis eu. Eget sit amet tellus cras adipiscing enim. Etiam sit amet nisl purus in mollis nunc sed. Elementum pulvinar etiam non quam lacus suspendisse. Etiam erat velit scelerisque in dictum non consectetur a. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultricies mi eget mauris pharetra et. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Sagittis vitae et leo duis ut diam. Pellentesque pulvinar pellentesque habitant morbi. Euismod elementum nisi quis eleifend quam adipiscing. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Aenean sed adipiscing diam donec adipiscing tristique risus. Eget aliquet nibh praesent tristique magna. Elementum tempus egestas sed sed risus pretium quam vulputate. Nunc sed augue lacus viverra vitae congue. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Aliquam ultrices sagittis orci a. Blandit libero volutpat sed cras ornare. Neque viverra justo nec ultrices dui sapien eget mi proin. Quam elementum pulvinar etiam non. Sagittis nisl rhoncus mattis rhoncus. Leo urna molestie at elementum eu facilisis. Lorem sed risus ultricies tristique nulla. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Sodales ut etiam sit amet nisl purus in mollis. Laoreet sit amet cursus sit amet dictum sit amet justo. Malesuada proin libero nunc consequat interdum. Est lorem ipsum dolor sit. Iaculis nunc sed augue lacus viverra vitae. Blandit libero volutpat sed cras ornare. Lacus sed viverra tellus in hac habitasse platea. At in tellus integer feugiat scelerisque. Pulvinar mattis nunc sed blandit libero volutpat sed.";
 
         function loadUnits(p) {
             var loremcounter = 300*p;
@@ -28,7 +28,7 @@ function makedoc() {
             paragraph.style.margin = "0px";
             paragraph.style.padding = "10px";
             paragraph.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
-            document.getElementById("coldiv" + p%3).appendChild(paragraph);
+            document.getElementById("coldiv" + p%3).appendChild(paragraph); //just text
 
             var contpic = document.createElement("img");
             var iwid = parseInt((200 + Math.random()*800), 10);
@@ -40,7 +40,48 @@ function makedoc() {
             att.value = picval;
             contpic.setAttributeNode(att);
             contpic.style.width = "23vw";
-            document.getElementById("coldiv" + p%3).appendChild(contpic);
+            document.getElementById("coldiv" + p%3).appendChild(contpic); //just img
+
+            loremcounter = 50*p;
+            var divimgcap = document.createElement("div");
+            divimgcap.style.backgroundColor = "red";
+            divimgcap.setAttribute("id", ("divimgcap" + p));
+            document.getElementById("coldiv" + p%3).appendChild(divimgcap);
+            var imgimgcap = document.createElement("img");
+            var iwid = parseInt((200 + Math.random()*800), 10);
+            var ihigh = parseInt((200 + Math.random()*800), 10);
+            var pic = Math.random()*300;
+            pic = (pic - pic%1);
+            var att = document.createAttribute("src");
+            var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
+            att.value = picval;
+            imgimgcap.setAttributeNode(att);
+            imgimgcap.style.width = "23vw";
+            document.getElementById("coldiv" + p%3).appendChild(imgimgcap);
+            var capimgcap = document.createElement("p");
+            capimgcap.innerHTML = fillertext.substring(loremcounter, 50*(p+1))
+            document.getElementById("divimgcap" + p).appendChild(imgimgcap);
+            document.getElementById("divimgcap" + p).appendChild(capimgcap); //img with caption
+
+            var divheadimg = document.createElement("div");
+            divheadimg.style.backgroundColor = "green";
+            divheadimg.setAttribute("id", ("divheadimg" + p));
+            document.getElementById("coldiv" + p%3).appendChild(divheadimg);
+            var headheadimg = document.createElement("h1");
+            headheadimg.innerHTML = "HEADER";
+            var imgheadimg = document.createElement("img");
+            var iwid = parseInt((200 + Math.random()*800), 10);
+            var ihigh = parseInt((200 + Math.random()*800), 10);
+            var pic = Math.random()*300;
+            pic = (pic - pic%1);
+            var att = document.createAttribute("src");
+            var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
+            att.value = picval;
+            imgheadimg.setAttributeNode(att);
+            imgheadimg.style.width = "23vw";
+            document.getElementById("coldiv" + p%3).appendChild(imgheadimg);
+            document.getElementById("divheadimg" + p).appendChild(headheadimg);
+            document.getElementById("divheadimg" + p).appendChild(imgheadimg);
         }
 
         var margin;
