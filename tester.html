@@ -32,9 +32,24 @@
                 document.getElementById("navdiv").appendChild(link);
             }
         }
+
+        function destroydoc() {
+            var allElements = document.getElementsByTagName("*");
+            var i;
+            for (i = 0; i < allElements.length; i++) {
+                if ( !(allElements[i] == document.getElementById("destroyd") || allElements[i] == document.getElementById("maked") || allElements[i] == document.getElementById("seedInput")) ) {
+                    allElements[i].style.display = "none";
+                }
+            }
+            document.getElementById("destroyd").style.display = "inline-block";
+            document.getElementById("maked").style.display = "inline-block";
+            document.getElementById("seedInput").style.display = "inline-block";
+        }
     </script>
 </head>
-<body onload="makedoc()" style="background-color: rgba(40, 20, 40, .95);">
-
+<body>
+<input id="seedInput" type="text" value="10000000000000" name="q" aria-label="Input Seed">
+<button id="maked" onclick="makedoc()" >Create</button>
+<button id="destroyd" onclick="destroydoc()" >Delete</button>
 </body>
 </html>

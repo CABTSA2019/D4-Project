@@ -363,3 +363,7 @@ function makedoc() {
         }
 
 }
+
+function destroydoc() {
+    document.body.removeChild("div");
+}
