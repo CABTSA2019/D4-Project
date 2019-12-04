@@ -35,21 +35,30 @@
 
         function destroydoc() {
             var allElements = document.getElementsByTagName("*");
-            var i;
-            for (i = 0; i < allElements.length; i++) {
-                if ( !(allElements[i] == document.getElementById("destroyd") || allElements[i] == document.getElementById("maked") || allElements[i] == document.getElementById("seedInput")) ) {
-                    allElements[i].style.display = "none";
+            var allIds = [];
+            for (var i = 0, n = allElements.length; i < n; ++i) {
+            var el = allElements[i];
+            if (el.id) { allIds.push(el.id); }
+            }
+
+            for (var h = 0; h < allIds.length; h++){
+                var check = !(document.getElementById(allIds[h]).getAttribute("class") == "save");
+                if ( check ) {
+                    document.getElementById(allIds[h]).style.display = "none";
                 }
             }
-            document.getElementById("destroyd").style.display = "inline-block";
-            document.getElementById("maked").style.display = "inline-block";
-            document.getElementById("seedInput").style.display = "inline-block";
+
+            for (var g = 0; g < allIds.length; g++){
+                var f = document.createElement("p");
+                f.innerHTML = allIds[g];
+                document.body.appendChild(f);
+            }
         }
     </script>
 </head>
 <body>
-<input id="seedInput" type="text" value="10000000000000" name="q" aria-label="Input Seed">
-<button id="maked" onclick="makedoc()" >Create</button>
-<button id="destroyd" onclick="destroydoc()" >Delete</button>
+<input class="save" id="seedInput" type="text" value="10000000000000" name="q" aria-label="Input Seed">
+<button class="save" id="maked" onclick="makedoc()" >Create</button>
+<button class="save" id="destroyd" onclick="destroydoc()" >Delete</button>
 </body>
 </html>
