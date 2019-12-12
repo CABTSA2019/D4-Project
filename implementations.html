@@ -26,10 +26,42 @@
                         unit.style.margin = "0px";
                         document.getElementById("coldiv" + col).appendChild(unit);
                     }
-                }
+        }
 
         function loadUnits2(p, c){
+                    if (c == 3) {
+                        var wth = "23vw";
+                    } else if (c == 2) {
+                        var wth = "37vw";
+                    }
 
+                    //grid, patterned (alternating by row)
+                    var loremcounter = 300*p;
+                    var col;
+                    for (col = 0; col < c; col++) {
+                        if (p%2 == 0) {
+                            var unit = document.createElement("p");
+                            unit.style.width = wth;
+                            unit.style.height = "200px";
+                            unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
+                            unit.style.margin = "0px";
+
+                            document.getElementById("coldiv" + col).appendChild(unit);
+                        } else {
+                            var unit = document.createElement("img");
+                            var iwid = "200";
+                            var ihigh = "200";
+                            var pic = Math.random()*300;
+                            pic = (pic - pic%1);
+                            var att = document.createAttribute("src");
+                            var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
+                            att.value = picval;
+                            unit.setAttributeNode(att);
+                            unit.style.width = wth;
+
+                            document.getElementById("coldiv" + col).appendChild(unit);
+                        }
+                    }
         }
 
         function makedoc() {
@@ -76,7 +108,7 @@
                 }
 
                 c = 2;
-                for (p = 0; p < 4; p++) {
+                for (p = 0; p < 8; p++) {
                     loadUnits2(p, c);
                 }
 
