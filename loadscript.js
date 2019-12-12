@@ -379,7 +379,7 @@ function makedoc() {
 
                 var c = 2;
                 var p;
-                for (p = 0; p < 2*4; p++) {
+                for (p = 0; p < 2; p++) {
                     loadUnits(p, c);
                 }
 
