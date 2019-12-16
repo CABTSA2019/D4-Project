@@ -129,6 +129,46 @@
                         }
                     }
         }
+        function loadUnits5(p, c) {
+            if (c == 3) {
+                        var wth = "23vw";
+                    } else if (c == 2) {
+                        var wth = "37vw";
+                    }
+                    //varying heights, 2:1
+                    var loremcounter = 300*p;
+                    var col;
+                    for (col = 0; col < c; col++) {
+                        if (col == 0) {
+                            var unit = document.createElement("p");
+                            unit.style.width = wth;
+                            unit.style.height = "100px";
+                            unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
+                            unit.style.margin = "0px";
+                            document.getElementById("coldiv" + col).appendChild(unit);
+
+                            var unit = document.createElement("div");
+                            unit.style.width = wth;
+                            unit.style.height = "100px";
+                            unit.style.backgroundColor = "purple";
+                            document.getElementById("coldiv" + col).appendChild(unit);
+                        }
+                        else {
+                            var unit = document.createElement("img");
+                            var iwid = "200";
+                            var ihigh = "200";
+                            var pic = Math.random()*300;
+                            pic = (pic - pic%1);
+                            var att = document.createAttribute("src");
+                            var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
+                            att.value = picval;
+                            unit.setAttributeNode(att);
+                            unit.style.width = wth;
+                            unit.style.height = "200px";
+                            document.getElementById("coldiv" + col).appendChild(unit);
+                        }
+                    }
+        }
         function makedoc() {
                 var contentcont = document.createElement("div");
                 contentcont.style.width = "100%";
@@ -165,6 +205,10 @@
                 c = 2;
                 for (p = 0; p < 4; p++) {
                     loadUnits4(p, c);
+                }
+            c = 2;
+                for (p = 0; p < 4; p++) {
+                    loadUnits5(p, c);
                 }
             }
             function destroydoc() {
