@@ -47,13 +47,9 @@ function makedoc() {
 
         function loadUnits(p, c) {
             /*if () { //random
-
             } else if () { //grid
-
             } else if () { //asymmetrical
-
             } else { //varying heights
-
             }*/
 
             if (c == 3) {
@@ -146,13 +142,9 @@ function makedoc() {
 
             if (5 <= third && third <= 7) { //two column only
                 /*if () { //random
-
                 } else if () { //grid
-
                 } else if () { //asymmetrical
-
                 } else { //varying heights
-
                 }*/
             }
         }
