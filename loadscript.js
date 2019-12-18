@@ -1,7 +1,7 @@
 function makedoc() {
         var fromhtml = document.getElementById("seedInput").value;
-        if (fromhtml == 10000000000000) {
-        var seed = Math.random()*90000000000000 + 10000000000000;
+        if (fromhtml == 100000000000000) {
+        var seed = Math.random()*900000000000000 + 100000000000000;
         } else {
             seed = fromhtml;
         }
@@ -18,6 +18,9 @@ function makedoc() {
         var tenth = (seed %10000000000 - seed%1000000000)/1000000000; //
         var eleventh = (seed %100000000000 - seed%10000000000)/10000000000; //
         var twelfth = (seed %1000000000000 - seed%100000000000)/100000000000; //
+        var thirteenth = (seed %10000000000000 - seed%1000000000000)/1000000000000; //
+        var fourteenth = (seed %100000000000000 - seed%10000000000000)/10000000000000; //
+        var fifteenth = (seed %1000000000000000 - seed%100000000000000)/100000000000000; //
 
         var rownums = 0;
         var fourplusfive = (seed %100000 - seed%1000)/1000;
@@ -41,112 +44,22 @@ function makedoc() {
             rownums = 10;
         }
 
-        //more
+        var row1, row2, row3, row4, row5, row6, row7, row8, row9, row10;
+        row 1 = (first + second + third);
+        row 2 = (fourth + fifth + sixth);
+        row 3 = (seventh + eighth + ninth);
+        row 4 = (tenth + eleventh + twelfth);
+        row 5 = (thirteenth + fourteenth + fifteenth);
+        row 6 = (first + fourth + seventh);
+        row 7 = (tenth + thirteenth + second);
+        row 8 = (fifth + eighth + eleventh);
+        row 9 = (fourteenth + third + sixth);
+        row 10 = (ninth + twelfth + fifteenth);
 
         var fillertext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Facilisi nullam vehicula ipsum a arcu cursus. In mollis nunc sed id semper risus in. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Vel risus commodo viverra maecenas accumsan lacus. Ac felis donec et odio pellentesque diam volutpat commodo sed. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Tellus at urna condimentum mattis pellentesque id. Enim neque volutpat ac tincidunt vitae semper quis. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Tristique nulla aliquet enim tortor at auctor urna nunc id. Sit amet nisl purus in mollis nunc. Consequat semper viverra nam libero. Pretium viverra suspendisse potenti nullam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Ac turpis egestas integer eget aliquet. Pretium vulputate sapien nec sagittis aliquam. Eros donec ac odio tempor orci dapibus. Dui nunc mattis enim ut tellus. Quam vulputate dignissim suspendisse in est ante in. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eu augue ut lectus arcu. Orci eu lobortis elementum nibh tellus molestie nunc non. Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Egestas dui id ornare arcu odio ut sem nulla pharetra. Mauris a diam maecenas sed enim ut sem viverra aliquet. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Tortor id aliquet lectus proin nibh nisl condimentum id. Vel pretium lectus quam id. Nisi vitae suscipit tellus mauris a diam maecenas sed. Volutpat blandit aliquam etiam erat velit scelerisque in. A diam maecenas sed enim ut sem viverra aliquet. Non tellus orci ac auctor augue mauris augue neque. Ullamcorper sit amet risus nullam eget felis. Ornare aenean euismod elementum nisi quis. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Ornare quam viverra orci sagittis eu. Eget sit amet tellus cras adipiscing enim. Etiam sit amet nisl purus in mollis nunc sed. Elementum pulvinar etiam non quam lacus suspendisse. Etiam erat velit scelerisque in dictum non consectetur a. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultricies mi eget mauris pharetra et. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Sagittis vitae et leo duis ut diam. Pellentesque pulvinar pellentesque habitant morbi. Euismod elementum nisi quis eleifend quam adipiscing. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Aenean sed adipiscing diam donec adipiscing tristique risus. Eget aliquet nibh praesent tristique magna. Elementum tempus egestas sed sed risus pretium quam vulputate. Nunc sed augue lacus viverra vitae congue. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Aliquam ultrices sagittis orci a. Blandit libero volutpat sed cras ornare. Neque viverra justo nec ultrices dui sapien eget mi proin. Quam elementum pulvinar etiam non. Sagittis nisl rhoncus mattis rhoncus. Leo urna molestie at elementum eu facilisis. Lorem sed risus ultricies tristique nulla. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Sodales ut etiam sit amet nisl purus in mollis. Laoreet sit amet cursus sit amet dictum sit amet justo. Malesuada proin libero nunc consequat interdum. Est lorem ipsum dolor sit. Iaculis nunc sed augue lacus viverra vitae. Blandit libero volutpat sed cras ornare. Lacus sed viverra tellus in hac habitasse platea. At in tellus integer feugiat scelerisque. Pulvinar mattis nunc sed blandit libero volutpat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Facilisi nullam vehicula ipsum a arcu cursus. In mollis nunc sed id semper risus in. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Vel risus commodo viverra maecenas accumsan lacus. Ac felis donec et odio pellentesque diam volutpat commodo sed. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Tellus at urna condimentum mattis pellentesque id. Enim neque volutpat ac tincidunt vitae semper quis. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Tristique nulla aliquet enim tortor at auctor urna nunc id. Sit amet nisl purus in mollis nunc. Consequat semper viverra nam libero. Pretium viverra suspendisse potenti nullam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Ac turpis egestas integer eget aliquet. Pretium vulputate sapien nec sagittis aliquam. Eros donec ac odio tempor orci dapibus. Dui nunc mattis enim ut tellus. Quam vulputate dignissim suspendisse in est ante in. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eu augue ut lectus arcu. Orci eu lobortis elementum nibh tellus molestie nunc non. Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Egestas dui id ornare arcu odio ut sem nulla pharetra. Mauris a diam maecenas sed enim ut sem viverra aliquet. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Tortor id aliquet lectus proin nibh nisl condimentum id. Vel pretium lectus quam id. Nisi vitae suscipit tellus mauris a diam maecenas sed. Volutpat blandit aliquam etiam erat velit scelerisque in. A diam maecenas sed enim ut sem viverra aliquet. Non tellus orci ac auctor augue mauris augue neque. Ullamcorper sit amet risus nullam eget felis. Ornare aenean euismod elementum nisi quis. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Ornare quam viverra orci sagittis eu. Eget sit amet tellus cras adipiscing enim. Etiam sit amet nisl purus in mollis nunc sed. Elementum pulvinar etiam non quam lacus suspendisse. Etiam erat velit scelerisque in dictum non consectetur a. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultricies mi eget mauris pharetra et. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Sagittis vitae et leo duis ut diam. Pellentesque pulvinar pellentesque habitant morbi. Euismod elementum nisi quis eleifend quam adipiscing. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Aenean sed adipiscing diam donec adipiscing tristique risus. Eget aliquet nibh praesent tristique magna. Elementum tempus egestas sed sed risus pretium quam vulputate. Nunc sed augue lacus viverra vitae congue. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Aliquam ultrices sagittis orci a. Blandit libero volutpat sed cras ornare. Neque viverra justo nec ultrices dui sapien eget mi proin. Quam elementum pulvinar etiam non. Sagittis nisl rhoncus mattis rhoncus. Leo urna molestie at elementum eu facilisis. Lorem sed risus ultricies tristique nulla. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Sodales ut etiam sit amet nisl purus in mollis. Laoreet sit amet cursus sit amet dictum sit amet justo. Malesuada proin libero nunc consequat interdum. Est lorem ipsum dolor sit. Iaculis nunc sed augue lacus viverra vitae. Blandit libero volutpat sed cras ornare. Lacus sed viverra tellus in hac habitasse platea. At in tellus integer feugiat scelerisque. Pulvinar mattis nunc sed blandit libero volutpat sed.";
 
         function loadUnits(p, c) {
-            /*if () { //random
-            } else if () { //grid
-            } else if () { //asymmetrical
-            } else { //varying heights
-            }*/
 
-            if (c == 3) {
-                var wth = "23vw";
-            } else if (c == 2) {
-                var wth = "37vw";
-            }
-
-            var loremcounter = 300*p;
-            var paragraph = document.createElement("p");
-            paragraph.style.width = wth;
-            paragraph.style.margin = "0px";
-            paragraph.style.padding = "10px";
-            paragraph.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
-            document.getElementById("coldiv" + p%c).appendChild(paragraph); //just text
-
-            var contpic = document.createElement("img");
-            var iwid = parseInt((200 + Math.random()*800), 10);
-            var ihigh = parseInt((200 + Math.random()*800), 10);
-            var pic = Math.random()*300;
-            pic = (pic - pic%1);
-            var att = document.createAttribute("src");
-            var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
-            att.value = picval;
-            contpic.setAttributeNode(att);
-            contpic.style.width = wth;
-            document.getElementById("coldiv" + p%c).appendChild(contpic); //just img
-
-            loremcounter = 50*p;
-            var divimgcap = document.createElement("div");
-            divimgcap.style.backgroundColor = "red";
-            divimgcap.setAttribute("id", ("divimgcap" + p));
-            document.getElementById("coldiv" + p%c).appendChild(divimgcap);
-            var imgimgcap = document.createElement("img");
-            var iwid = parseInt((200 + Math.random()*800), 10);
-            var ihigh = parseInt((200 + Math.random()*800), 10);
-            var pic = Math.random()*300;
-            pic = (pic - pic%1);
-            var att = document.createAttribute("src");
-            var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
-            att.value = picval;
-            imgimgcap.setAttributeNode(att);
-            imgimgcap.style.width = wth;
-            document.getElementById("coldiv" + p%c).appendChild(imgimgcap);
-            var capimgcap = document.createElement("p");
-            capimgcap.innerHTML = fillertext.substring(loremcounter, 50*(p+1))
-            document.getElementById("divimgcap" + p).appendChild(imgimgcap);
-            document.getElementById("divimgcap" + p).appendChild(capimgcap); //img with caption
-
-            var divheadimg = document.createElement("div");
-            divheadimg.style.backgroundColor = "green";
-            divheadimg.setAttribute("id", ("divheadimg" + p));
-            document.getElementById("coldiv" + p%c).appendChild(divheadimg);
-            var headheadimg = document.createElement("h1");
-            headheadimg.innerHTML = "HEADER";
-            var imgheadimg = document.createElement("img");
-            var iwid = parseInt((200 + Math.random()*800), 10);
-            var ihigh = parseInt((200 + Math.random()*800), 10);
-            var pic = Math.random()*300;
-            pic = (pic - pic%1);
-            var att = document.createAttribute("src");
-            var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
-            att.value = picval;
-            imgheadimg.setAttributeNode(att);
-            imgheadimg.style.width = wth;
-            document.getElementById("coldiv" + p%c).appendChild(imgheadimg);
-            document.getElementById("divheadimg" + p).appendChild(headheadimg);
-            document.getElementById("divheadimg" + p).appendChild(imgheadimg); //Header with img
-
-            loremcounter = 300*p;
-            var divheadcap = document.createElement("div");
-            divheadcap.style.backgroundColor = "yellow";
-            divheadcap.setAttribute("id", ("divheadcap" + p));
-            document.getElementById("coldiv" + p%c).appendChild(divheadcap);
-            var headheadcap = document.createElement("h1");
-            headheadcap.innerHTML = "HEADER";
-            var paragraph2 = document.createElement("p");
-            paragraph2.style.width = wth;
-            paragraph2.style.margin = "0px";
-            paragraph2.style.padding = "10px";
-            paragraph2.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
-            document.getElementById("divheadcap" + p).appendChild(headheadcap);
-            document.getElementById("divheadcap" + p).appendChild(paragraph2);
-
-            var divblank = document.createElement("div");
-            divblank.style.backgroundColor = "black";
-            divblank.style.height = "200px";
-            divblank.style.width = wth;
-            document.getElementById("coldiv" + p%c).appendChild(divblank);
-
-            if (5 <= third && third <= 7) { //two column only
-                /*if () { //random
-                } else if () { //grid
-                } else if () { //asymmetrical
-                } else { //varying heights
-                }*/
-            }
         }
 
         var margin;
@@ -333,9 +246,21 @@ function makedoc() {
 
             document.body.appendChild(contentcont);
 
-            if (third >= 8) {//three columns
-                var g;
-                for (g = 0; g < 3; g++) {
+            var makecol;
+            for (makecol = 0; makecol < rownums; makecol++) {
+                var rowdiv = document.createElement("div");
+                rowdiv.style.width = "100%";
+                rowdiv.style.marginTop = "0px";
+                rowdiv.style.marginLeft = "0px";
+                rowdiv.style.marginRight = "0px";
+                rowdiv.style.marginBottom = "50px";
+                rowdiv.style.display = "flex";
+                rowdiv.style.flexdirection = "row";
+                rowdiv.style.justifyContent = "space-around";
+                rowdiv.setAttribute("id", "rowdiv" + makecol);
+                document.getElementById("contentcont").appendChild(rowdiv);
+
+                if (third >= 8) {//three columns
                     var coldiv = document.createElement("div");
                     coldiv.style.width = "25vw";
                     coldiv.style.height = "auto";
@@ -343,20 +268,29 @@ function makedoc() {
                     coldiv.style.display = "flex";
                     coldiv.style.flexDirection = "column";
                     coldiv.style.alignItems = "center";
-                    coldiv.setAttribute("id", "coldiv" + g);
+                    coldiv.setAttribute("id", "coldivone" + makecol);
+                    document.getElementById("rowdiv" + makecol).appendChild(coldiv);
 
-                    document.getElementById("contentcont").appendChild(coldiv);
-                }
+                    var coldiv = document.createElement("div");
+                    coldiv.style.width = "25vw";
+                    coldiv.style.height = "auto";
+                    coldiv.style.backgroundColor = "blue";
+                    coldiv.style.display = "flex";
+                    coldiv.style.flexDirection = "column";
+                    coldiv.style.alignItems = "center";
+                    coldiv.setAttribute("id", "coldivtwo" + makecol);
+                    document.getElementById("rowdiv" + makecol).appendChild(coldiv);
 
-                    var c = 3;
-                    var p;
-                    for (p = 0; p < 3*4; p++) {
-                        loadUnits(p);
-                    }
-
-            } else if (5 <= third && third <= 7){ //two columns
-                var g;
-                for (g = 0; g < 2; g++) {
+                    var coldiv = document.createElement("div");
+                    coldiv.style.width = "25vw";
+                    coldiv.style.height = "auto";
+                    coldiv.style.backgroundColor = "blue";
+                    coldiv.style.display = "flex";
+                    coldiv.style.flexDirection = "column";
+                    coldiv.style.alignItems = "center";
+                    coldiv.setAttribute("id", "coldivthree" + makecol);
+                    document.getElementById("rowdiv" + makecol).appendChild(coldiv);
+                } else if (5 <= third && third <= 7) {
                     var coldiv = document.createElement("div");
                     coldiv.style.width = "38vw";
                     coldiv.style.height = "auto";
@@ -364,19 +298,20 @@ function makedoc() {
                     coldiv.style.display = "flex";
                     coldiv.style.flexDirection = "column";
                     coldiv.style.alignItems = "center";
-                    coldiv.setAttribute("id", "coldiv" + g);
+                    coldiv.setAttribute("id", "coldivone" + makecol);
+                    document.getElementById("rowdiv" + makecol).appendChild(coldiv);
 
-                    document.getElementById("contentcont").appendChild(coldiv);
+                    var coldiv = document.createElement("div");
+                    coldiv.style.width = "38vw";
+                    coldiv.style.height = "auto";
+                    coldiv.style.backgroundColor = "blue";
+                    coldiv.style.display = "flex";
+                    coldiv.style.flexDirection = "column";
+                    coldiv.style.alignItems = "center";
+                    coldiv.setAttribute("id", "coldivtwo" + makecol);
+                    document.getElementById("rowdiv" + makecol).appendChild(coldiv);
                 }
-
-                var c = 2;
-                var p;
-                for (p = 0; p < 2; p++) {
-                    loadUnits(p, c);
-                }
-
             }
-        }
 
 }
 
