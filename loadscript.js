@@ -58,205 +58,34 @@ function makedoc() {
 
         var fillertext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Facilisi nullam vehicula ipsum a arcu cursus. In mollis nunc sed id semper risus in. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Vel risus commodo viverra maecenas accumsan lacus. Ac felis donec et odio pellentesque diam volutpat commodo sed. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Tellus at urna condimentum mattis pellentesque id. Enim neque volutpat ac tincidunt vitae semper quis. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Tristique nulla aliquet enim tortor at auctor urna nunc id. Sit amet nisl purus in mollis nunc. Consequat semper viverra nam libero. Pretium viverra suspendisse potenti nullam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Ac turpis egestas integer eget aliquet. Pretium vulputate sapien nec sagittis aliquam. Eros donec ac odio tempor orci dapibus. Dui nunc mattis enim ut tellus. Quam vulputate dignissim suspendisse in est ante in. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eu augue ut lectus arcu. Orci eu lobortis elementum nibh tellus molestie nunc non. Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Egestas dui id ornare arcu odio ut sem nulla pharetra. Mauris a diam maecenas sed enim ut sem viverra aliquet. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Tortor id aliquet lectus proin nibh nisl condimentum id. Vel pretium lectus quam id. Nisi vitae suscipit tellus mauris a diam maecenas sed. Volutpat blandit aliquam etiam erat velit scelerisque in. A diam maecenas sed enim ut sem viverra aliquet. Non tellus orci ac auctor augue mauris augue neque. Ullamcorper sit amet risus nullam eget felis. Ornare aenean euismod elementum nisi quis. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Ornare quam viverra orci sagittis eu. Eget sit amet tellus cras adipiscing enim. Etiam sit amet nisl purus in mollis nunc sed. Elementum pulvinar etiam non quam lacus suspendisse. Etiam erat velit scelerisque in dictum non consectetur a. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultricies mi eget mauris pharetra et. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Sagittis vitae et leo duis ut diam. Pellentesque pulvinar pellentesque habitant morbi. Euismod elementum nisi quis eleifend quam adipiscing. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Aenean sed adipiscing diam donec adipiscing tristique risus. Eget aliquet nibh praesent tristique magna. Elementum tempus egestas sed sed risus pretium quam vulputate. Nunc sed augue lacus viverra vitae congue. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Aliquam ultrices sagittis orci a. Blandit libero volutpat sed cras ornare. Neque viverra justo nec ultrices dui sapien eget mi proin. Quam elementum pulvinar etiam non. Sagittis nisl rhoncus mattis rhoncus. Leo urna molestie at elementum eu facilisis. Lorem sed risus ultricies tristique nulla. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Sodales ut etiam sit amet nisl purus in mollis. Laoreet sit amet cursus sit amet dictum sit amet justo. Malesuada proin libero nunc consequat interdum. Est lorem ipsum dolor sit. Iaculis nunc sed augue lacus viverra vitae. Blandit libero volutpat sed cras ornare. Lacus sed viverra tellus in hac habitasse platea. At in tellus integer feugiat scelerisque. Pulvinar mattis nunc sed blandit libero volutpat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Facilisi nullam vehicula ipsum a arcu cursus. In mollis nunc sed id semper risus in. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Vel risus commodo viverra maecenas accumsan lacus. Ac felis donec et odio pellentesque diam volutpat commodo sed. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Tellus at urna condimentum mattis pellentesque id. Enim neque volutpat ac tincidunt vitae semper quis. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Tristique nulla aliquet enim tortor at auctor urna nunc id. Sit amet nisl purus in mollis nunc. Consequat semper viverra nam libero. Pretium viverra suspendisse potenti nullam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Ac turpis egestas integer eget aliquet. Pretium vulputate sapien nec sagittis aliquam. Eros donec ac odio tempor orci dapibus. Dui nunc mattis enim ut tellus. Quam vulputate dignissim suspendisse in est ante in. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eu augue ut lectus arcu. Orci eu lobortis elementum nibh tellus molestie nunc non. Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Egestas dui id ornare arcu odio ut sem nulla pharetra. Mauris a diam maecenas sed enim ut sem viverra aliquet. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Tortor id aliquet lectus proin nibh nisl condimentum id. Vel pretium lectus quam id. Nisi vitae suscipit tellus mauris a diam maecenas sed. Volutpat blandit aliquam etiam erat velit scelerisque in. A diam maecenas sed enim ut sem viverra aliquet. Non tellus orci ac auctor augue mauris augue neque. Ullamcorper sit amet risus nullam eget felis. Ornare aenean euismod elementum nisi quis. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Ornare quam viverra orci sagittis eu. Eget sit amet tellus cras adipiscing enim. Etiam sit amet nisl purus in mollis nunc sed. Elementum pulvinar etiam non quam lacus suspendisse. Etiam erat velit scelerisque in dictum non consectetur a. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultricies mi eget mauris pharetra et. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Sagittis vitae et leo duis ut diam. Pellentesque pulvinar pellentesque habitant morbi. Euismod elementum nisi quis eleifend quam adipiscing. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Aenean sed adipiscing diam donec adipiscing tristique risus. Eget aliquet nibh praesent tristique magna. Elementum tempus egestas sed sed risus pretium quam vulputate. Nunc sed augue lacus viverra vitae congue. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Aliquam ultrices sagittis orci a. Blandit libero volutpat sed cras ornare. Neque viverra justo nec ultrices dui sapien eget mi proin. Quam elementum pulvinar etiam non. Sagittis nisl rhoncus mattis rhoncus. Leo urna molestie at elementum eu facilisis. Lorem sed risus ultricies tristique nulla. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Sodales ut etiam sit amet nisl purus in mollis. Laoreet sit amet cursus sit amet dictum sit amet justo. Malesuada proin libero nunc consequat interdum. Est lorem ipsum dolor sit. Iaculis nunc sed augue lacus viverra vitae. Blandit libero volutpat sed cras ornare. Lacus sed viverra tellus in hac habitasse platea. At in tellus integer feugiat scelerisque. Pulvinar mattis nunc sed blandit libero volutpat sed.";
 
-        function loadUnits1(p, c) {
-                    if (c == 3) {
-                        var wth = "23vw";
-                    } else if (c == 2) {
-                        var wth = "37vw";
-                    }
-                    //grid, completely homogenous
-                    var loremcounter = 300*p;
-                    var col;
-                    for (col = 0; col < c; col++) { //insert unit to put in grid below
-                        var unit = document.createElement("p");
-                        unit.style.width = wth;
-                        unit.style.height = "200px";
-                        unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
-                        unit.style.margin = "0px";
-                        document.getElementById("coldivone" + col).appendChild(unit);
-                    }
-        }
-        function loadUnits2(p, c){
-                    if (c == 3) {
-                        var wth = "23vw";
-                    } else if (c == 2) {
-                        var wth = "37vw";
-                    }
-                    //grid, patterned, alternating by every other row with two elements
-                    var loremcounter = 300*p;
-                    var col;
-                    for (col = 0; col < c; col++) {
-                        if (p%2 == 0) {
-                            var unit = document.createElement("p");
-                            unit.style.width = wth;
-                            unit.style.height = "200px";
-                            unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
-                            unit.style.margin = "0px";
-                            document.getElementById("coldivone" + col).appendChild(unit);
-                        } else {
-                            var unit = document.createElement("img");
-                            var iwid = "200";
-                            var ihigh = "200";
-                            var pic = Math.random()*300;
-                            pic = (pic - pic%1);
-                            var att = document.createAttribute("src");
-                            var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
-                            att.value = picval;
-                            unit.setAttributeNode(att);
-                            unit.style.width = wth;
-                            document.getElementById("coldivone" + col).appendChild(unit);
-                        }
-                    }
-        }
-        function loadUnits3(p, c) {
-            if (c == 3) {
-                        var wth = "23vw";
-                    } else if (c == 2) {
-                        var wth = "37vw";
-                    }
-                    //grid, patterned, alternating every third row with three elements
-                    var loremcounter = 300*p;
-                    var col;
-                    for (col = 0; col < c; col++) {
-                        if (p%3 == 0) {
-                            var unit = document.createElement("p");
-                            unit.style.width = wth;
-                            unit.style.height = "200px";
-                            unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
-                            unit.style.margin = "0px";
-                            document.getElementById("coldivone" + col).appendChild(unit);
-                        } else if (p%2 == 0) {
-                            var unit = document.createElement("img");
-                            var iwid = "200";
-                            var ihigh = "200";
-                            var pic = Math.random()*300;
-                            pic = (pic - pic%1);
-                            var att = document.createAttribute("src");
-                            var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
-                            att.value = picval;
-                            unit.setAttributeNode(att);
-                            unit.style.width = wth;
-                            document.getElementById("coldivone" + col).appendChild(unit);
-                        } else {
-                            var unit = document.createElement("div");
-                            unit.style.width = wth;
-                            unit.style.height = "200px";
-                            unit.style.backgroundColor = "brown";
-                            document.getElementById("coldivone" + col).appendChild(unit);
-                        }
-                    }
-        }
-        function loadUnits4(p, c) {
-            if (c == 3) {
-                        var wth = "23vw";
-                    } else if (c == 2) {
-                        var wth = "37vw";
-                    }
-                    //grid, homogeneous 2 columns
-                    var loremcounter = 300*p;
-                    var col;
-                    for (col = 0; col < c; col++) {
-                        if (col == 0) {
-                            var unit = document.createElement("img");
-                            var iwid = "200";
-                            var ihigh = "200";
-                            var pic = Math.random()*300;
-                            pic = (pic - pic%1);
-                            var att = document.createAttribute("src");
-                            var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
-                            att.value = picval;
-                            unit.setAttributeNode(att);
-                            unit.style.width = wth;
-                            unit.style.height = "200px";
-                            document.getElementById("coldivone" + col).appendChild(unit);
-                        }
-                        else {
-                            var unit = document.createElement("p");
-                            unit.style.width = wth;
-                            unit.style.height = "200px";
-                            unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
-                            unit.style.margin = "0px";
-                            document.getElementById("coldivone" + col).appendChild(unit);
-                        }
-                    }
-        }
-        function loadUnits5(p, c) {
-            if (c == 3) {
-                        var wth = "23vw";
-                    } else if (c == 2) {
-                        var wth = "37vw";
-                    }
-                    //varying heights, 2:1
-                    var loremcounter = 300*p;
-                    var col;
-                    for (col = 0; col < c; col++) {
-                        if (col == 0) {
-                            var unit = document.createElement("p");
-                            unit.style.width = wth;
-                            unit.style.height = "100px";
-                            unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
-                            unit.style.margin = "0px";
-                            document.getElementById("coldivone" + col).appendChild(unit);
+        function loadUnits(p, c, r) {
+            var rseed;
+            if (r = 0) {
+                rseed = row1;
+            } else if (r = 1) {
+                rseed = row2;
+            } else if (r = 2) {
+                rseed = row3;
+            } else if (r = 3) {
+                rseed = row4;
+            } else if (r = 4) {
+                rseed = row5;
+            } else if (r = 5) {
+                rseed = row6;
+            } else if (r = 6) {
+                rseed = row7;
+            } else if (r = 7) {
+                rseed = row8;
+            } else if (r = 8) {
+                rseed = row9;
+            } else if (r = 9) {
+                rseed = row10;
+            }
 
-                            var unit = document.createElement("div");
-                            unit.style.width = wth;
-                            unit.style.height = "100px";
-                            unit.style.backgroundColor = "purple";
-                            document.getElementById("coldivone" + col).appendChild(unit);
-                        }
-                        else {
-                            var unit = document.createElement("img");
-                            var iwid = "200";
-                            var ihigh = "200";
-                            var pic = Math.random()*300;
-                            pic = (pic - pic%1);
-                            var att = document.createAttribute("src");
-                            var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
-                            att.value = picval;
-                            unit.setAttributeNode(att);
-                            unit.style.width = wth;
-                            unit.style.height = "200px";
-                            document.getElementById("coldivone" + col).appendChild(unit);
-                        }
-                    }
-        }
-        function loadUnits6(p, c) {
-            if (c == 3) {
-                        var wth = "23vw";
-                    } else if (c == 2) {
-                        var wth = "37vw";
-                    }
-                    //varying heights, 3:1
-                    for (col = 0; col < c; col++) {
-                        if (col == 0) {
-                            var unit = document.createElement("p");
-                            unit.style.width = wth;
-                            unit.style.height = "100px";
-                            unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
-                            unit.style.margin = "0px";
-                            document.getElementById("coldivone" + col).appendChild(unit);
+            if (rseed < 751 && rseed > 249) {
+                //standard results
+            }
 
-                            var unit = document.createElement("div");
-                            unit.style.width = wth;
-                            unit.style.height = "100px";
-                            unit.style.backgroundColor = "purple";
-                            document.getElementById("coldivone" + col).appendChild(unit);
-                        }
-                        else {
-                            var unit = document.createElement("img");
-                            var iwid = "200";
-                            var ihigh = "200";
-                            var pic = Math.random()*300;
-                            pic = (pic - pic%1);
-                            var att = document.createAttribute("src");
-                            var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
-                            att.value = picval;
-                            unit.setAttributeNode(att);
-                            unit.style.width = wth;
-                            unit.style.height = "200px";
-                            document.getElementById("coldivone" + col).appendChild(unit);
-                        }
-                    }
         }
 
         var margin;
@@ -510,27 +339,15 @@ function makedoc() {
                     coldiv.style.alignItems = "center";
                     coldiv.setAttribute("id", "coldiv" + rnum + "2");
                     document.getElementById("rowdiv" + makecol).appendChild(coldiv);
-                    var c = 3
+
+                    //if row 1 equals... or maybe just call another function
+
                     var p;
-                    for (p = 0; p < 4; p++) {
-                        loadUnits1(p, c);
-                    }
-                    c = 3;
-                    for (p = 0; p < 8; p++) {
-                        loadUnits2(p, c);
-                    }
-                    c = 3;
-                    for (p = 0; p < 9; p++) {
-                        loadUnits3(p, c);
-                    }
                     c = 3;
                     for (p = 0; p < 4; p++) {
-                        loadUnits4(p, c);
+                        loadUnits(p, c, makecol);
                     }
-                    c = 3;
-                    for (p = 0; p < 4; p++) {
-                        loadUnits5(p, c);
-                    }
+
                 } else if (5 <= third && third <= 7) {
                     var coldiv = document.createElement("div");
                     coldiv.style.width = "38vw";
@@ -551,25 +368,13 @@ function makedoc() {
                     coldiv.style.alignItems = "center";
                     coldiv.setAttribute("id", "coldiv" + rnum + "1");
                     document.getElementById("rowdiv" + makecol).appendChild(coldiv);
+
+                    //if row 1 equals... or maybe just call another function
+
                     var p;
-                    for (p = 0; p < 4; p++) {
-                        loadUnits1(p, c);
-                    }
-                    c = 2;
-                    for (p = 0; p < 8; p++) {
-                        loadUnits2(p, c);
-                    }
-                    c = 2;
-                    for (p = 0; p < 9; p++) {
-                        loadUnits3(p, c);
-                    }
                     c = 2;
                     for (p = 0; p < 4; p++) {
-                        loadUnits4(p, c);
-                    }
-                    c = 2;
-                    for (p = 0; p < 4; p++) {
-                        loadUnits5(p, c);
+                        loadUnits(p, c, makecol);
                     }
                 }
             }
