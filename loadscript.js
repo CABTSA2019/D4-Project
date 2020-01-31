@@ -10,8 +10,8 @@ function makedoc() {
         var second = (seed %100 - seed%10)/10; //number of sections
         var third = (seed %1000 - seed%100)/100; //number of columns
         var fourth = (seed %10000 - seed%1000)/1000; //      |type and number of rows and height
-        var fifth = (seed %100000 - seed%10000)/10000; //    |          |
-        var sixth = (seed %1000000 - seed%100000)/100000; // |          v
+        var fifth = (seed %100000 - seed%10000)/10000; //    |
+        var sixth = (seed %1000000 - seed%100000)/100000; //
         var seventh = (seed %10000000 - seed%1000000)/1000000; //
         var eighth = (seed %100000000 - seed%10000000)/10000000; //
         var ninth = (seed %1000000000 - seed%100000000)/100000000; // margin %
@@ -24,9 +24,9 @@ function makedoc() {
 
         var rownums = 0;
         var fourandfive = (seed %100000 - seed%1000)/1000;
-        if (fourandfive /*<= 10*/ >= 0) {
+        if (fourandfive <= 10) {
             rownums = 1;
-        } /*else if (11 <= fourandfive && fourandfive <= 25) {
+        } else if (11 <= fourandfive && fourandfive <= 25) {
             rownums = 2;
         } else if (26 <= fourandfive && fourandfive <= 40) {
             rownums = 3;
@@ -42,48 +42,106 @@ function makedoc() {
             rownums = 9;
         } else if (96 <= fourandfive) {
             rownums = 10;
-        } */
+        }
 
         var row1, row2, row3, row4, row5, row6, row7, row8, row9, row10;
-        row1 = (first*100 + second*10 + third);
-        row2 = (fourth*100 + fifth*10 + sixth);
-        row3 = (seventh*100 + eighth*10 + ninth);
+        row1 = (ninth*100 + twelfth*10 + fifteenth);
+        row2 = (seventh*100 + second*10 + eleventh);
+        row3 = (fifteenth*100 + eighth*10 + ninth);
         row4 = (tenth*100 + eleventh*10 + twelfth);
         row5 = (thirteenth*100 + fourteenth*10 + fifteenth);
-        row6 = (first*100 + fourth*10 + seventh);
-        row7 = (tenth*100 + thirteenth*10 + second);
-        row8 = (fifth*100 + eighth*10 + eleventh);
+        row6 = (eighth*100 + fourth*10 + seventh);
+        row7 = (eleventh*100 + thirteenth*10 + second);
+        row8 = (twelfth*100 + eighth*10 + eleventh);
         row9 = (fourteenth*100 + third*10 + sixth);
-        row10 = (ninth*100 + twelfth*10 + fifteenth);
+        row10 = (sixth*100 + twelfth*10 + fifteenth);
 
         var fillertext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Facilisi nullam vehicula ipsum a arcu cursus. In mollis nunc sed id semper risus in. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Vel risus commodo viverra maecenas accumsan lacus. Ac felis donec et odio pellentesque diam volutpat commodo sed. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Tellus at urna condimentum mattis pellentesque id. Enim neque volutpat ac tincidunt vitae semper quis. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Tristique nulla aliquet enim tortor at auctor urna nunc id. Sit amet nisl purus in mollis nunc. Consequat semper viverra nam libero. Pretium viverra suspendisse potenti nullam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Ac turpis egestas integer eget aliquet. Pretium vulputate sapien nec sagittis aliquam. Eros donec ac odio tempor orci dapibus. Dui nunc mattis enim ut tellus. Quam vulputate dignissim suspendisse in est ante in. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eu augue ut lectus arcu. Orci eu lobortis elementum nibh tellus molestie nunc non. Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Egestas dui id ornare arcu odio ut sem nulla pharetra. Mauris a diam maecenas sed enim ut sem viverra aliquet. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Tortor id aliquet lectus proin nibh nisl condimentum id. Vel pretium lectus quam id. Nisi vitae suscipit tellus mauris a diam maecenas sed. Volutpat blandit aliquam etiam erat velit scelerisque in. A diam maecenas sed enim ut sem viverra aliquet. Non tellus orci ac auctor augue mauris augue neque. Ullamcorper sit amet risus nullam eget felis. Ornare aenean euismod elementum nisi quis. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Ornare quam viverra orci sagittis eu. Eget sit amet tellus cras adipiscing enim. Etiam sit amet nisl purus in mollis nunc sed. Elementum pulvinar etiam non quam lacus suspendisse. Etiam erat velit scelerisque in dictum non consectetur a. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultricies mi eget mauris pharetra et. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Sagittis vitae et leo duis ut diam. Pellentesque pulvinar pellentesque habitant morbi. Euismod elementum nisi quis eleifend quam adipiscing. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Aenean sed adipiscing diam donec adipiscing tristique risus. Eget aliquet nibh praesent tristique magna. Elementum tempus egestas sed sed risus pretium quam vulputate. Nunc sed augue lacus viverra vitae congue. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Aliquam ultrices sagittis orci a. Blandit libero volutpat sed cras ornare. Neque viverra justo nec ultrices dui sapien eget mi proin. Quam elementum pulvinar etiam non. Sagittis nisl rhoncus mattis rhoncus. Leo urna molestie at elementum eu facilisis. Lorem sed risus ultricies tristique nulla. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Sodales ut etiam sit amet nisl purus in mollis. Laoreet sit amet cursus sit amet dictum sit amet justo. Malesuada proin libero nunc consequat interdum. Est lorem ipsum dolor sit. Iaculis nunc sed augue lacus viverra vitae. Blandit libero volutpat sed cras ornare. Lacus sed viverra tellus in hac habitasse platea. At in tellus integer feugiat scelerisque. Pulvinar mattis nunc sed blandit libero volutpat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Facilisi nullam vehicula ipsum a arcu cursus. In mollis nunc sed id semper risus in. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Vel risus commodo viverra maecenas accumsan lacus. Ac felis donec et odio pellentesque diam volutpat commodo sed. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Tellus at urna condimentum mattis pellentesque id. Enim neque volutpat ac tincidunt vitae semper quis. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Tristique nulla aliquet enim tortor at auctor urna nunc id. Sit amet nisl purus in mollis nunc. Consequat semper viverra nam libero. Pretium viverra suspendisse potenti nullam. Congue mauris rhoncus aenean vel elit scelerisque mauris. Ac turpis egestas integer eget aliquet. Pretium vulputate sapien nec sagittis aliquam. Eros donec ac odio tempor orci dapibus. Dui nunc mattis enim ut tellus. Quam vulputate dignissim suspendisse in est ante in. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eu augue ut lectus arcu. Orci eu lobortis elementum nibh tellus molestie nunc non. Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Egestas dui id ornare arcu odio ut sem nulla pharetra. Mauris a diam maecenas sed enim ut sem viverra aliquet. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Tortor id aliquet lectus proin nibh nisl condimentum id. Vel pretium lectus quam id. Nisi vitae suscipit tellus mauris a diam maecenas sed. Volutpat blandit aliquam etiam erat velit scelerisque in. A diam maecenas sed enim ut sem viverra aliquet. Non tellus orci ac auctor augue mauris augue neque. Ullamcorper sit amet risus nullam eget felis. Ornare aenean euismod elementum nisi quis. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Ornare quam viverra orci sagittis eu. Eget sit amet tellus cras adipiscing enim. Etiam sit amet nisl purus in mollis nunc sed. Elementum pulvinar etiam non quam lacus suspendisse. Etiam erat velit scelerisque in dictum non consectetur a. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultricies mi eget mauris pharetra et. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Sagittis vitae et leo duis ut diam. Pellentesque pulvinar pellentesque habitant morbi. Euismod elementum nisi quis eleifend quam adipiscing. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Aenean sed adipiscing diam donec adipiscing tristique risus. Eget aliquet nibh praesent tristique magna. Elementum tempus egestas sed sed risus pretium quam vulputate. Nunc sed augue lacus viverra vitae congue. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Aliquam ultrices sagittis orci a. Blandit libero volutpat sed cras ornare. Neque viverra justo nec ultrices dui sapien eget mi proin. Quam elementum pulvinar etiam non. Sagittis nisl rhoncus mattis rhoncus. Leo urna molestie at elementum eu facilisis. Lorem sed risus ultricies tristique nulla. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Sodales ut etiam sit amet nisl purus in mollis. Laoreet sit amet cursus sit amet dictum sit amet justo. Malesuada proin libero nunc consequat interdum. Est lorem ipsum dolor sit. Iaculis nunc sed augue lacus viverra vitae. Blandit libero volutpat sed cras ornare. Lacus sed viverra tellus in hac habitasse platea. At in tellus integer feugiat scelerisque. Pulvinar mattis nunc sed blandit libero volutpat sed.";
 
         function loadUnits(p, c, r) {
+            var isStandard = true;
             var rseed;
-            if (r = 0) {
+            if (r == 0) {
                 rseed = row1;
-            } else if (r = 1) {
+            } else if (r == 1) {
                 rseed = row2;
-            } else if (r = 2) {
+            } else if (r == 2) {
                 rseed = row3;
-            } else if (r = 3) {
+            } else if (r == 3) {
                 rseed = row4;
-            } else if (r = 4) {
+            } else if (r == 4) {
                 rseed = row5;
-            } else if (r = 5) {
+            } else if (r == 5) {
                 rseed = row6;
-            } else if (r = 6) {
+            } else if (r == 6) {
                 rseed = row7;
-            } else if (r = 7) {
+            } else if (r == 7) {
                 rseed = row8;
-            } else if (r = 8) {
+            } else if (r == 8) {
                 rseed = row9;
-            } else if (r = 9) {
+            } else if (r == 9) {
                 rseed = row10;
             }
 
-            if (rseed < 751 && rseed > 249) {
-                //standard results
+            var rnum;
+            if (r == 0) {
+                rnum = "one";
+            } else if (r == 1) {
+                rnum = "two";
+            } else if (r == 2) {
+                rnum = "three";
+            } else if (r == 3) {
+                rnum = "four";
+            } else if (r == 4) {
+                rnum = "five";
+            } else if (r == 5) {
+                rnum = "six";
+            } else if (r == 6) {
+                rnum = "seven";
+            } else if (r == 7) {
+                rnum = "eight";
+            } else if (r == 8) {
+                rnum = "nine";
+            } else if (r == 9) {
+                rnum = "ten";
+            }
+
+            if (c != 1) { //non one row results
+                if (c == 3) { //two columns
+                    var wth = "23vw";
+                    if (rseed < 751 && rseed > 249 && isStandard) { //normal results
+                        //module tree
+                        if (rseed < 271 && rseed > 249) { //test: 100500200005801
+                            var loremcounter = 300*p;
+                            var col;
+                            for (col = 0; col < c; col++) { //insert unit to put in grid below
+                                var unit = document.createElement("p");
+                                unit.style.width = wth;
+                                unit.style.height = "200px";
+                                unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
+                                unit.style.margin = "0px";
+                                document.getElementById("coldiv" + rnum + col).appendChild(unit);
+                            }
+                        } /*else if () { //make sure this is blocked off each time you test
+
+                        } else if () {
+
+                        } else if () {
+
+                        } else if () {
+
+                        } else if () {
+
+                        } else if () {
+
+                        } else if () {
+
+                        } */
+                    }
+                } else if (c == 2) { //three columns
+                    var wth = "37vw";
+
+                }
             }
 
         }
