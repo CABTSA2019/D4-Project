@@ -120,6 +120,7 @@ function makedoc() {
                                 unit.style.height = "200px";
                                 unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
                                 unit.style.margin = "0px";
+                                unit.style.overflowY = "hidden";
                                 document.getElementById("coldiv" + rnum + col).appendChild(unit);
                             }
                         } else if (rseed < 310 && rseed > 269) {
@@ -285,13 +286,210 @@ function makedoc() {
                                     document.getElementById("coldiv" + rnum + col).appendChild(unit);
                                 }
                             }
-                        }/* else if () {
+                        } else if (rseed < 370 && rseed > 354) {
+                            var arrange = 0; //test: 500500300005801
+                            //cappic in first column
+                            if (rseed < 370 && rseed > 364) { //test: 500600300005801
+                                arrange = 1; //cappic in second column
+                            } else if (rseed < 365 && rseed > 359) { //test: 100600300005801
+                                arrange = 2; //cappic in thrid column
+                            }
+                            var loremcounter = 300*p;
+                            var col;
+                            for (col = 0; col < c; col++) { //Text w title, 2 text, Aligned
+                                if (col == arrange) {
+                                    var unit = document.createElement("h3");
+                                    unit.style.width = wth;
+                                    unit.style.height = "20px";
+                                    unit.style.overflowY = "hidden";
+                                    unit.innerHTML = fillertext.substring(loremcounter, 50*(p+1));
+                                    document.getElementById("coldiv" + rnum + col).appendChild(unit);
 
-                        } else if () {
+                                    var unit = document.createElement("p");
+                                    unit.style.width = wth;
+                                    unit.style.height = "165px";
+                                    unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
+                                    unit.style.margin = "0px";
+                                    unit.style.marginBottom = "15px";
+                                    unit.style.overflowY = "hidden";
+                                    document.getElementById("coldiv" + rnum + col).appendChild(unit);
+                                }
+                                else {
+                                    var unit = document.createElement("p");
+                                    unit.style.width = wth;
+                                    unit.style.height = "185px";
+                                    unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
+                                    unit.style.margin = "0px";
+                                    unit.style.marginBottom = "15px";
+                                    unit.style.overflowY = "hidden";
+                                    document.getElementById("coldiv" + rnum + col).appendChild(unit);
+                                }
+                            }
+                        } else if (rseed < 385 && rseed > 369) {
+                            var arrange = 0; //test: 100700300005801
+                            //cappic in first column
+                            if (rseed < 385 && rseed > 379) { //test: 100800300005801
+                                arrange = 1; //cappic in second column
+                            } else if (rseed < 380 && rseed > 374) { //test: 500700300005801
+                                arrange = 2; //cappic in thrid column
+                            }
+                            var loremcounter = 300*p;
+                            var col;
+                            for (col = 0; col < c; col++) { //Text w title, 2 img, Aligned
+                                if (col == arrange) {
+                                    var unit = document.createElement("h3");
+                                    unit.style.width = wth;
+                                    unit.style.height = "20px";
+                                    unit.style.overflowY = "hidden";
+                                    unit.innerHTML = fillertext.substring(loremcounter, 50*(p+1));
+                                    document.getElementById("coldiv" + rnum + col).appendChild(unit);
 
-                        } else if () {
+                                    var unit = document.createElement("p");
+                                    unit.style.width = wth;
+                                    unit.style.height = "165px";
+                                    unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
+                                    unit.style.margin = "0px";
+                                    unit.style.marginBottom = "15px";
+                                    unit.style.overflowY = "hidden";
+                                    document.getElementById("coldiv" + rnum + col).appendChild(unit);
+                                }
+                                else {
+                                    var unit = document.createElement("img");
+                                    var iwid = "200";
+                                    var ihigh = "200";
+                                    var pic = Math.random()*300;
+                                    pic = (pic - pic%1);
+                                    var att = document.createAttribute("src");
+                                    var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
+                                    att.value = picval;
+                                    unit.setAttributeNode(att);
+                                    unit.style.width = wth;
+                                    unit.style.height = "200px";
+                                    document.getElementById("coldiv" + rnum + col).appendChild(unit);
+                                }
+                            }
+                        } else if (rseed < 400 && rseed > 384) {
+                            var arrange = 0; //test: 500800300005801
+                            //cappic in first column
+                            if (rseed < 400 && rseed > 394) { //test: 500900300005801
+                                arrange = 1; //cappic in second column
+                            } else if (rseed < 395 && rseed > 389) { //test: 100900300005801
+                                arrange = 2; //cappic in thrid column
+                            }
+                            var loremcounter = 300*p;
+                            var col;
+                            for (col = 0; col < c; col++) { //Text w title, 2 img w cap, Aligned
+                                if (col == arrange) {
+                                    var unit = document.createElement("h3");
+                                    unit.style.width = wth;
+                                    unit.style.height = "20px";
+                                    unit.style.overflowY = "hidden";
+                                    unit.innerHTML = fillertext.substring(loremcounter, 50*(p+1));
+                                    document.getElementById("coldiv" + rnum + col).appendChild(unit);
 
-                        } */
+                                    var unit = document.createElement("p");
+                                    unit.style.width = wth;
+                                    unit.style.height = "165px";
+                                    unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
+                                    unit.style.margin = "0px";
+                                    unit.style.marginBottom = "15px";
+                                    unit.style.overflowY = "hidden";
+                                    document.getElementById("coldiv" + rnum + col).appendChild(unit);
+                                }
+                                else {
+                                    var unit = document.createElement("img");
+                                    var iwid = "200";
+                                    var ihigh = "200";
+                                    var pic = Math.random()*300;
+                                    pic = (pic - pic%1);
+                                    var att = document.createAttribute("src");
+                                    var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
+                                    att.value = picval;
+                                    unit.setAttributeNode(att);
+                                    unit.style.width = wth;
+                                    unit.style.height = "150px";
+                                    document.getElementById("coldiv" + rnum + col).appendChild(unit);
+
+                                    var unit = document.createElement("p");
+                                    unit.style.width = wth;
+                                    unit.style.height = "35px";
+                                    unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
+                                    unit.style.margin = "0px";
+                                    unit.style.marginBottom = "15px";
+                                    unit.style.overflowY = "hidden";
+                                    document.getElementById("coldiv" + rnum + col).appendChild(unit);
+                                }
+                            }
+                        } else if (rseed < 415 && rseed > 399) {
+                            var loremcounter = 300*p; //test: 500000400005801
+                            var col;
+                            for (col = 0; col < c; col++) { //all img, ALIGNED
+                                var unit = document.createElement("img");
+                                var iwid = "200";
+                                var ihigh = "200";
+                                var pic = Math.random()*300;
+                                pic = (pic - pic%1);
+                                var att = document.createAttribute("src");
+                                var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
+                                att.value = picval;
+                                unit.setAttributeNode(att);
+                                unit.style.width = wth;
+                                unit.style.height = "200px";
+                                document.getElementById("coldiv" + rnum + col).appendChild(unit);
+                            }
+                        } else if (rseed < 430 && rseed > 414) {
+                            var loremcounter = 300*p; //test: 500200400005801
+                            var col;
+                            for (col = 0; col < c; col++) { //all img w cap, ALIGNED
+                                var unit = document.createElement("img");
+                                var iwid = "200";
+                                var ihigh = "200";
+                                var pic = Math.random()*300;
+                                pic = (pic - pic%1);
+                                var att = document.createAttribute("src");
+                                var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
+                                att.value = picval;
+                                unit.setAttributeNode(att);
+                                unit.style.width = wth;
+                                unit.style.height = "150px";
+                                document.getElementById("coldiv" + rnum + col).appendChild(unit);
+
+                                var unit = document.createElement("p");
+                                unit.style.width = wth;
+                                unit.style.height = "35px";
+                                unit.innerHTML = fillertext.substring(loremcounter, 300*(p+1));
+                                unit.style.margin = "0px";
+                                unit.style.marginBottom = "15px";
+                                unit.style.overflowY = "hidden";
+                                document.getElementById("coldiv" + rnum + col).appendChild(unit);
+                            }
+                        } else if (rseed < 445 && rseed > 429) {
+                            var loremcounter = 50*p; //test: 500300400005801
+                            var col;
+                            for (col = 0; col < c; col++) { //all img w cap, ALIGNED
+                                var unit = document.createElement("img");
+                                var iwid = "200";
+                                var ihigh = "200";
+                                var pic = Math.random()*300;
+                                pic = (pic - pic%1);
+                                var att = document.createAttribute("src");
+                                var picval = "https://picsum.photos/id/" + pic + '/' + iwid + '/' + ihigh;
+                                att.value = picval;
+                                unit.setAttributeNode(att);
+                                unit.style.width = wth;
+                                unit.style.height = "200px";
+                                document.getElementById("coldiv" + rnum + col).appendChild(unit);
+
+                                var unit = document.createElement("p");
+                                unit.style.width = "calc(" + wth + " - 20px)";
+                                unit.style.height = "0px";
+                                unit.innerHTML = fillertext.substring(loremcounter, 50*(p+1));
+                                unit.style.margin = "0px";
+                                unit.style.position = "relative";
+                                unit.style.bottom = "110px";
+                                document.getElementById("coldiv" + rnum + col).appendChild(unit);
+                            }
+                        }
                     }
                 } else if (c == 2) { //three columns
                     var wth = "37vw";
